@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3818D3E01B57683700F80706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818D3DF1B57683700F80706 /* AppDelegate.swift */; };
+		3818D3E21B57683700F80706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818D3E11B57683700F80706 /* ViewController.swift */; };
+		3818D3E51B57683700F80706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3818D3E31B57683700F80706 /* Main.storyboard */; };
+		3818D3E71B57683700F80706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3818D3E61B57683700F80706 /* Images.xcassets */; };
+		3818D3EA1B57683700F80706 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3818D3E81B57683700F80706 /* LaunchScreen.xib */; };
+		3818D3F61B57683700F80706 /* How_Many_FingersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818D3F51B57683700F80706 /* How_Many_FingersTests.swift */; };
+		3818D4091B57685D00F80706 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818D4081B57685D00F80706 /* InterfaceController.swift */; };
+		3818D40B1B57685D00F80706 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818D40A1B57685D00F80706 /* NotificationController.swift */; };
+		3818D40D1B57685D00F80706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3818D40C1B57685D00F80706 /* Images.xcassets */; };
+		3818D4111B57685D00F80706 /* How Many Fingers WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3818D4101B57685D00F80706 /* How Many Fingers WatchKit App.app */; };
+		3818D4191B57685D00F80706 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3818D4171B57685D00F80706 /* Interface.storyboard */; };
+		3818D41B1B57685D00F80706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3818D41A1B57685D00F80706 /* Images.xcassets */; };
+		3818D41E1B57685D00F80706 /* How Many Fingers WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3818D4031B57685D00F80706 /* How Many Fingers WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3818D3F01B57683700F80706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3818D3D21B57683700F80706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3818D3D91B57683700F80706;
+			remoteInfo = "How Many Fingers";
+		};
+		3818D4121B57685D00F80706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3818D3D21B57683700F80706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3818D40F1B57685D00F80706;
+			remoteInfo = "How Many Fingers WatchKit App";
+		};
+		3818D41C1B57685D00F80706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3818D3D21B57683700F80706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3818D4021B57685D00F80706;
+			remoteInfo = "How Many Fingers WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3818D4251B57685D00F80706 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3818D41E1B57685D00F80706 /* How Many Fingers WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3818D3DA1B57683700F80706 /* How Many Fingers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Many Fingers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3818D3DE1B57683700F80706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3818D3DF1B57683700F80706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3818D3E11B57683700F80706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3818D3E41B57683700F80706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3818D3E61B57683700F80706 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3818D3E91B57683700F80706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3818D3EF1B57683700F80706 /* How Many FingersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Many FingersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3818D3F41B57683700F80706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3818D3F51B57683700F80706 /* How_Many_FingersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Many_FingersTests.swift; sourceTree = "<group>"; };
+		3818D4031B57685D00F80706 /* How Many Fingers WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "How Many Fingers WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3818D4061B57685D00F80706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3818D4071B57685D00F80706 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3818D4081B57685D00F80706 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3818D40A1B57685D00F80706 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3818D40C1B57685D00F80706 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3818D4101B57685D00F80706 /* How Many Fingers WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Many Fingers WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3818D4161B57685D00F80706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3818D4181B57685D00F80706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3818D41A1B57685D00F80706 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3818D3D71B57683700F80706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D3EC1B57683700F80706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D4001B57685D00F80706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3818D3D11B57683700F80706 = {
+			isa = PBXGroup;
+			children = (
+				3818D3DC1B57683700F80706 /* How Many Fingers */,
+				3818D3F21B57683700F80706 /* How Many FingersTests */,
+				3818D4041B57685D00F80706 /* How Many Fingers WatchKit Extension */,
+				3818D4141B57685D00F80706 /* How Many Fingers WatchKit App */,
+				3818D3DB1B57683700F80706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3818D3DB1B57683700F80706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3818D3DA1B57683700F80706 /* How Many Fingers.app */,
+				3818D3EF1B57683700F80706 /* How Many FingersTests.xctest */,
+				3818D4031B57685D00F80706 /* How Many Fingers WatchKit Extension.appex */,
+				3818D4101B57685D00F80706 /* How Many Fingers WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3818D3DC1B57683700F80706 /* How Many Fingers */ = {
+			isa = PBXGroup;
+			children = (
+				3818D3DF1B57683700F80706 /* AppDelegate.swift */,
+				3818D3E11B57683700F80706 /* ViewController.swift */,
+				3818D3E31B57683700F80706 /* Main.storyboard */,
+				3818D3E61B57683700F80706 /* Images.xcassets */,
+				3818D3E81B57683700F80706 /* LaunchScreen.xib */,
+				3818D3DD1B57683700F80706 /* Supporting Files */,
+			);
+			path = "How Many Fingers";
+			sourceTree = "<group>";
+		};
+		3818D3DD1B57683700F80706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3818D3DE1B57683700F80706 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3818D3F21B57683700F80706 /* How Many FingersTests */ = {
+			isa = PBXGroup;
+			children = (
+				3818D3F51B57683700F80706 /* How_Many_FingersTests.swift */,
+				3818D3F31B57683700F80706 /* Supporting Files */,
+			);
+			path = "How Many FingersTests";
+			sourceTree = "<group>";
+		};
+		3818D3F31B57683700F80706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3818D3F41B57683700F80706 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3818D4041B57685D00F80706 /* How Many Fingers WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3818D4081B57685D00F80706 /* InterfaceController.swift */,
+				3818D40A1B57685D00F80706 /* NotificationController.swift */,
+				3818D40C1B57685D00F80706 /* Images.xcassets */,
+				3818D4051B57685D00F80706 /* Supporting Files */,
+			);
+			path = "How Many Fingers WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3818D4051B57685D00F80706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3818D4061B57685D00F80706 /* Info.plist */,
+				3818D4071B57685D00F80706 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3818D4141B57685D00F80706 /* How Many Fingers WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3818D4171B57685D00F80706 /* Interface.storyboard */,
+				3818D41A1B57685D00F80706 /* Images.xcassets */,
+				3818D4151B57685D00F80706 /* Supporting Files */,
+			);
+			path = "How Many Fingers WatchKit App";
+			sourceTree = "<group>";
+		};
+		3818D4151B57685D00F80706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3818D4161B57685D00F80706 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3818D3D91B57683700F80706 /* How Many Fingers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3818D3F91B57683700F80706 /* Build configuration list for PBXNativeTarget "How Many Fingers" */;
+			buildPhases = (
+				3818D3D61B57683700F80706 /* Sources */,
+				3818D3D71B57683700F80706 /* Frameworks */,
+				3818D3D81B57683700F80706 /* Resources */,
+				3818D4251B57685D00F80706 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3818D41D1B57685D00F80706 /* PBXTargetDependency */,
+			);
+			name = "How Many Fingers";
+			productName = "How Many Fingers";
+			productReference = 3818D3DA1B57683700F80706 /* How Many Fingers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3818D3EE1B57683700F80706 /* How Many FingersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3818D3FC1B57683700F80706 /* Build configuration list for PBXNativeTarget "How Many FingersTests" */;
+			buildPhases = (
+				3818D3EB1B57683700F80706 /* Sources */,
+				3818D3EC1B57683700F80706 /* Frameworks */,
+				3818D3ED1B57683700F80706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3818D3F11B57683700F80706 /* PBXTargetDependency */,
+			);
+			name = "How Many FingersTests";
+			productName = "How Many FingersTests";
+			productReference = 3818D3EF1B57683700F80706 /* How Many FingersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3818D4021B57685D00F80706 /* How Many Fingers WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3818D4221B57685D00F80706 /* Build configuration list for PBXNativeTarget "How Many Fingers WatchKit Extension" */;
+			buildPhases = (
+				3818D3FF1B57685D00F80706 /* Sources */,
+				3818D4001B57685D00F80706 /* Frameworks */,
+				3818D4011B57685D00F80706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3818D4131B57685D00F80706 /* PBXTargetDependency */,
+			);
+			name = "How Many Fingers WatchKit Extension";
+			productName = "How Many Fingers WatchKit Extension";
+			productReference = 3818D4031B57685D00F80706 /* How Many Fingers WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3818D40F1B57685D00F80706 /* How Many Fingers WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3818D41F1B57685D00F80706 /* Build configuration list for PBXNativeTarget "How Many Fingers WatchKit App" */;
+			buildPhases = (
+				3818D40E1B57685D00F80706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How Many Fingers WatchKit App";
+			productName = "How Many Fingers WatchKit App";
+			productReference = 3818D4101B57685D00F80706 /* How Many Fingers WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3818D3D21B57683700F80706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Raphaelle;
+				TargetAttributes = {
+					3818D3D91B57683700F80706 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3818D3EE1B57683700F80706 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3818D3D91B57683700F80706;
+					};
+					3818D4021B57685D00F80706 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3818D40F1B57685D00F80706 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 3818D3D51B57683700F80706 /* Build configuration list for PBXProject "How Many Fingers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3818D3D11B57683700F80706;
+			productRefGroup = 3818D3DB1B57683700F80706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3818D3D91B57683700F80706 /* How Many Fingers */,
+				3818D3EE1B57683700F80706 /* How Many FingersTests */,
+				3818D4021B57685D00F80706 /* How Many Fingers WatchKit Extension */,
+				3818D40F1B57685D00F80706 /* How Many Fingers WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3818D3D81B57683700F80706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818D3E51B57683700F80706 /* Main.storyboard in Resources */,
+				3818D3EA1B57683700F80706 /* LaunchScreen.xib in Resources */,
+				3818D3E71B57683700F80706 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D3ED1B57683700F80706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D4011B57685D00F80706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818D40D1B57685D00F80706 /* Images.xcassets in Resources */,
+				3818D4111B57685D00F80706 /* How Many Fingers WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D40E1B57685D00F80706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818D4191B57685D00F80706 /* Interface.storyboard in Resources */,
+				3818D41B1B57685D00F80706 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3818D3D61B57683700F80706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818D3E21B57683700F80706 /* ViewController.swift in Sources */,
+				3818D3E01B57683700F80706 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D3EB1B57683700F80706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818D3F61B57683700F80706 /* How_Many_FingersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3818D3FF1B57685D00F80706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3818D40B1B57685D00F80706 /* NotificationController.swift in Sources */,
+				3818D4091B57685D00F80706 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3818D3F11B57683700F80706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3818D3D91B57683700F80706 /* How Many Fingers */;
+			targetProxy = 3818D3F01B57683700F80706 /* PBXContainerItemProxy */;
+		};
+		3818D4131B57685D00F80706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3818D40F1B57685D00F80706 /* How Many Fingers WatchKit App */;
+			targetProxy = 3818D4121B57685D00F80706 /* PBXContainerItemProxy */;
+		};
+		3818D41D1B57685D00F80706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3818D4021B57685D00F80706 /* How Many Fingers WatchKit Extension */;
+			targetProxy = 3818D41C1B57685D00F80706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3818D3E31B57683700F80706 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3818D3E41B57683700F80706 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3818D3E81B57683700F80706 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3818D3E91B57683700F80706 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3818D4171B57685D00F80706 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3818D4181B57685D00F80706 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3818D3F71B57683700F80706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3818D3F81B57683700F80706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3818D3FA1B57683700F80706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "How Many Fingers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3818D3FB1B57683700F80706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "How Many Fingers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3818D3FD1B57683700F80706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "How Many FingersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Many Fingers.app/How Many Fingers";
+			};
+			name = Debug;
+		};
+		3818D3FE1B57683700F80706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "How Many FingersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Many Fingers.app/How Many Fingers";
+			};
+			name = Release;
+		};
+		3818D4201B57685D00F80706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = How_Many_Fingers_WatchKit_Extension;
+				INFOPLIST_FILE = "How Many Fingers WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3818D4211B57685D00F80706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = How_Many_Fingers_WatchKit_Extension;
+				INFOPLIST_FILE = "How Many Fingers WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3818D4231B57685D00F80706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "How Many Fingers WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3818D4241B57685D00F80706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "How Many Fingers WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3818D3D51B57683700F80706 /* Build configuration list for PBXProject "How Many Fingers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3818D3F71B57683700F80706 /* Debug */,
+				3818D3F81B57683700F80706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3818D3F91B57683700F80706 /* Build configuration list for PBXNativeTarget "How Many Fingers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3818D3FA1B57683700F80706 /* Debug */,
+				3818D3FB1B57683700F80706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3818D3FC1B57683700F80706 /* Build configuration list for PBXNativeTarget "How Many FingersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3818D3FD1B57683700F80706 /* Debug */,
+				3818D3FE1B57683700F80706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3818D41F1B57685D00F80706 /* Build configuration list for PBXNativeTarget "How Many Fingers WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3818D4201B57685D00F80706 /* Debug */,
+				3818D4211B57685D00F80706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3818D4221B57685D00F80706 /* Build configuration list for PBXNativeTarget "How Many Fingers WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3818D4231B57685D00F80706 /* Debug */,
+				3818D4241B57685D00F80706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3818D3D21B57683700F80706 /* Project object */;
+}
